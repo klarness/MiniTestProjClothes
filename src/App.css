@@ -1,0 +1,33 @@
+:root {
+    --backgroundColor: #D0510;
+}
+
+body {
+margin: 0;
+}
+
+@font-face {
+    font-family: 'MorfinSans';
+    src: url("./assets/fonts/MorfinSans-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'MorfinSans', sans-serif;
+    font-size: 48px;
+}
+h2{
+    font-family: 'MorfinSans', sans-serif;
+    font-size: 32px;
+}
+h3{
+    font-family: 'Play', sans-serif;
+    font-size: 24px;
+    font-weight:normal;
+}
+h4{
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    font-weight:normal;
+}

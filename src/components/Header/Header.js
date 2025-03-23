@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Header = props => {
+const Header = () => {
     return (
-        <div>
+        <div className='headerRow'>
             <img src='/assets/Logo.svg' alt="logo" id='logo'></img>
             <nav className='navigation'>
                 <h3 className="menuPages">home</h3>
                 <h3 className="menuPages">our products</h3>
                 <h3 className="menuPages">term of use</h3>
                 <h3 className="menuPages">about us</h3>
-                <img src="/assets/ShoppingCart.svg" alt="Shopping Cart"></img>
+                <img src="/assets/ShoppingCart.svg" alt="Shopping Cart" />
             </nav>
             <div className='lang'>
                 <h3>EN</h3>
@@ -21,6 +21,8 @@ const Header = props => {
         </div>
     );
 };
+
+
 
 Header.propTypes = {
 };
