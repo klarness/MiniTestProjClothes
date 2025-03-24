@@ -1,12 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import './FirstBlock.css'
 
 const FirstBlock = () => {
     return (
-        <div>
+        <div className="FirstBlock">
             <div className="TextOfFirstBlock">
-                <img src="/assets/misisy2kclothes.svg" alt='mainTitle' />
-                <img src="/assets/SALE.svg" alt='sale' />
+                <img src="/assets/misisy2kclothes.svg" alt='mainTitle' id='mainTitle' />
+                <img src="/assets/SALE.svg" alt='sale' id='sale' />
             </div>
             <img src="/assets/ImgFirstBlock.png" className="imgFirstBlock" alt="PhotoOfManWithTongue" />
         </div> 
@@ -14,8 +14,5 @@ const FirstBlock = () => {
     );
 };
 
-FirstBlock.propTypes = {
-    
-};
 
 export default FirstBlock;

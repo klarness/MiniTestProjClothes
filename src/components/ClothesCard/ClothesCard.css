@@ -1,0 +1,18 @@
+.cards {
+    position: relative;
+    background-color: #191919; 
+    height: 218px;
+    width: 218px;
+    border-radius: 35px;
+}
+.GoodsCard {
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

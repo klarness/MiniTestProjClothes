@@ -1,0 +1,15 @@
+.catalog {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 65%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.CatalogColumn {
+}
+
+#TextPsycho{
+    font-size: 24px;
+}

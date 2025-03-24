@@ -1,0 +1,12 @@
+.circle {
+    animation-name: circleSpin;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-direction: normal;
+}
+
+@keyframes circleSpin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}

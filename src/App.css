@@ -1,9 +1,13 @@
 :root {
-    --backgroundColor: #D0510;
+    --backgroundColor: #0d0510;
+    --colorRed: #932B22;
+    --colorVanilla: #FFFFE3;
+    --colorGrey: #625C5A;
 }
 
 body {
 margin: 0;
+background-color: var(--backgroundColor);
 }
 
 @font-face {
@@ -16,18 +20,31 @@ margin: 0;
 h1 {
     font-family: 'MorfinSans', sans-serif;
     font-size: 48px;
+    color: var(--colorVanilla);
 }
 h2{
     font-family: 'MorfinSans', sans-serif;
     font-size: 32px;
+    color: var(--colorVanilla);
 }
 h3{
     font-family: 'Play', sans-serif;
     font-size: 24px;
     font-weight:normal;
+    color: var(--colorVanilla);
 }
 h4{
     font-family: 'Play', sans-serif;
     font-size: 20px;
     font-weight:normal;
+    color: var(--colorVanilla);
+}
+
+.App {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.y2kLine {
+    margin: 0 auto;
 }
