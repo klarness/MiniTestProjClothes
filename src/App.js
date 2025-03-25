@@ -6,20 +6,24 @@ import SecondBlock from './components/SecondBlock/SecondBlock';
 import ArrowNextCard from './components/ArrayNextCard/ArrowNextCard';
 import ClothesCart from './components/ClothesCard/ClothesCard';
 import ThirdBlock from './components/ThirdBlock/ThirdBlock';
+import FooterBlock from './components/FooterBlock/FooterBlock';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <FirstBlock />
+      <div className="Blocks1">
+        <Header />
+        <FirstBlock />
+      </div>
       <img src="/assets/y2kLINE.svg" alt='y2ky2ky2k' className='y2kLine' />
-      <SalesCircle size ="318px" speed="25s" className="firstCircle"></SalesCircle>
-      <SecondBlock/>
-      <SalesCircle size ="300px" speed="50s" direction="reverse" className="firstCircle"/>
-      <h1>our production</h1>
-      <ArrowNextCard/>
-      <ClothesCart src="/assets/shirt3.svg" />
-      <ThirdBlock />
+      <div className="Blocks2">
+        <SecondBlock/>
+        <h1>our production</h1>
+        <ArrowNextCard/>
+        <ClothesCart src="/assets/shirt3.svg" />
+        <ThirdBlock />
+      </div>
+      <FooterBlock/>
     </div>
   );
 }

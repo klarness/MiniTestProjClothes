@@ -1,0 +1,22 @@
+.SecondBlock {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+.ImgSecondBlock {
+    width: auto; 
+}
+
+.TextSecondBlock {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 50%; 
+    gap: 20px; 
+    
+}
+

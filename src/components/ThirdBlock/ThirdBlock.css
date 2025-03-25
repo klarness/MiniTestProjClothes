@@ -2,14 +2,30 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    width: 65%;
-    margin: 0 auto;
+    width: 75%;
+    margin-left: 0;
+    margin-right: auto;
     justify-content: space-between;
+    
 }
 
-.CatalogColumn {
+.ListOfCatalog {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.h2Title {
+    margin-bottom: 24px;
 }
 
 #TextPsycho{
     font-size: 24px;
 }
+
+.ThirdBlock {
+    margin-bottom: 170px;
+    margin-top: 125px;
+}
+
+
+

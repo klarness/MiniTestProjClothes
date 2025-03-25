@@ -1,0 +1,28 @@
+.backGroundFooter {
+    width: calc(100% - 160px);
+    height: 128px;
+    background-color: #000000;
+    padding-top: 34px;
+    padding-inline: 80px;
+    padding-bottom: 44px;
+}
+
+.iconPLusText {
+    display: flex;
+    gap: 10px;
+}
+
+.firstColumnText {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.TextBlock {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 30px;
+}

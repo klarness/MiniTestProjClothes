@@ -3,11 +3,11 @@ import './ThirdBlock.css';
 
 const ThirdBlock = () => {
     return (
-        <div>
+        <div className='ThirdBlock'>
             <h1>catalog</h1>
             <div className="catalog">
                 <div className="CatalogColumn">
-                    <h2>men</h2>
+                    <h2 className='h2Title'>men</h2>
                     <div className="ListOfCatalog">
                         <h4>t-shirts</h4>
                         <h4>trousers</h4>
@@ -16,7 +16,7 @@ const ThirdBlock = () => {
                     </div>
                 </div>
                 <div className="">
-                    <h2>women</h2>
+                    <h2 className='h2Title'>women</h2>
                     <div className="ListOfCatalog">
                         <h4>t-shirts</h4>
                         <h4>trousers</h4>
@@ -26,7 +26,7 @@ const ThirdBlock = () => {
                     </div>
                 </div>
                 <div className="">
-                    <h2><span id='TextPsycho'>(psycho)</span>kids</h2>
+                    <h2 className='h2Title'><span id='TextPsycho'>(psycho)</span>kids</h2>
                     <div className="ListOfCatalog">
                         <h4>t-shirts</h4>
                         <h4>accessories</h4>
