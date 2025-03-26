@@ -34,6 +34,9 @@
 .menuPages:hover::after {
     width: 100%; 
 }
+.langChoose {
+    color:var(--colorRed);
+}
 
 .lang {
     cursor: pointer;

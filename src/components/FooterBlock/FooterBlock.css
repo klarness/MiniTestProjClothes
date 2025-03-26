@@ -18,6 +18,10 @@
     gap: 15px;
 }
 
+.h4Text {
+    color: var(--colorGrey);
+}
+
 .TextBlock {
     display: flex;
     width: 100%;

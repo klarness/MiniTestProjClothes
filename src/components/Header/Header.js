@@ -14,7 +14,7 @@ const Header = () => {
             </nav>
             <div className="ThirdElement">
                 <div className='lang'>
-                    <h3>EN</h3>
+                    <h3 class="langChoose">EN</h3>
                     <h4>RU</h4>
                     <h4>DE</h4>
                 </div>

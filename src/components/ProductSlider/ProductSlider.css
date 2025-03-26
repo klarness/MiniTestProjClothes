@@ -1,0 +1,27 @@
+.splide__list {
+   width: 100%;
+   margin: 0;
+   display: flex;
+   padding: 0;
+   overflow: hidden;
+   gap: calc((100% - 1090px) / 4);
+}
+
+.arrow_button {
+    position: absolute;
+    right: 0;
+    width: 180px;
+    height: 180px;
+    background-color: #FFFFE3;
+    padding: 0;
+    margin: 0;
+    border-radius: 35px;
+}
+
+.splide__track {
+    align-items: center;
+    display: flex;
+    height: 219px;
+    width: 100%;
+    position: relative;
+}

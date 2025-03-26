@@ -1,12 +1,11 @@
+// App.js
 import './App.css';
 import FirstBlock from './components/FirstBlock/FirstBlock';
-import SalesCircle from './components/SalesCircle/SalesCircle';
 import Header from './components/Header/Header';
 import SecondBlock from './components/SecondBlock/SecondBlock';
-import ArrowNextCard from './components/ArrayNextCard/ArrowNextCard';
-import ClothesCart from './components/ClothesCard/ClothesCard';
 import ThirdBlock from './components/ThirdBlock/ThirdBlock';
 import FooterBlock from './components/FooterBlock/FooterBlock';
+import ProductSlider from './components/ProductSlider/ProductSlider';
 
 function App() {
   return (
@@ -19,8 +18,7 @@ function App() {
       <div className="Blocks2">
         <SecondBlock/>
         <h1>our production</h1>
-        <ArrowNextCard/>
-        <ClothesCart src="/assets/shirt3.svg" />
+        <ProductSlider />
         <ThirdBlock />
       </div>
       <FooterBlock/>

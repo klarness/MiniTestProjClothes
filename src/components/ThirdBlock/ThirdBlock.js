@@ -4,7 +4,7 @@ import './ThirdBlock.css';
 const ThirdBlock = () => {
     return (
         <div className='ThirdBlock'>
-            <h1>catalog</h1>
+            <h1 className='h1Title'>catalog</h1>
             <div className="catalog">
                 <div className="CatalogColumn">
                     <h2 className='h2Title'>men</h2>

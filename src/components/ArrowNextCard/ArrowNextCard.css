@@ -1,0 +1,23 @@
+.ArrowBlock {
+  position: absolute;
+  right: 0%;
+  width: 180px;
+  height: 180px;
+  background-color: var(--colorVanilla);
+  border-radius: 35px;
+  margin-right: 19px;
+  cursor: pointer;
+  z-index: 10; 
+}
+
+.RightArrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.arrow {
+  width: 88px;  /* Устанавливаем ширину стрелки */
+  height: auto;
+}

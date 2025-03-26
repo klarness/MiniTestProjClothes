@@ -4,7 +4,7 @@ import './FooterBlock.css'
 const FooterBlock = () => {
     return (
         <div className='backGroundFooter'>
-            <h2>there are our contacts</h2>
+            <h2 >there are our contacts</h2>
             <div className='TextBlock'>
                 <div className="firstColumnText">
                     <div className='iconPLusText'>
