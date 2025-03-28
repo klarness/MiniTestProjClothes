@@ -14,18 +14,26 @@ const ProductSlider = () => {
   const [index, setIndex] = useState(0);
   const trackRef = useRef(null);
 
-    const nextItem = () => {
-        const newItem = <ClothesCart src={`/assets/shirt${index+1}.svg`} />; // Создаем новый элемент
-        setlist((prevList) => [...prevList, newItem]);
-        setIndex((prevIndex) => (prevIndex + 1) % imageList.length);
-    };
+  const nextItem = () => {
+    const newItem = <ClothesCart src={`/assets/shirt${index + 1}.svg`} />;
+    console.log(`индекс - ${index}`);
+    setlist((prevList) => [...prevList, newItem]);
+    setListWidth((prevWidth) => {
+      const currentTrackWidth = trackRef.current ? trackRef.current.offsetWidth : trackWidth;
+      return prevWidth + (218 + (currentTrackWidth - 1090) / 4);
+    });
+    console.log(listWidth);
+    setIndex((prevIndex) => (prevIndex + 1) % 4);
+  };
 
   const [trackWidth, setTrackWidth] = useState(0);
+  const [listWidth, setListWidth] = useState(0);
 
   useEffect(() => {
     if (trackRef.current) {
       const width = trackRef.current.offsetWidth;
       setTrackWidth(width);
+      setListWidth(width);
     }
   }, []);
 
@@ -36,7 +44,8 @@ const ProductSlider = () => {
           className="splide__list"
           style={{
             transition: 'transform 0.3s ease',
-            transform: `translateX(-${index * (218 + (trackWidth - 1090) / 4)}px)` // Используем trackWidth
+            transform: `translateX(-${index * (218 + (trackWidth - 1090) / 4)}px)`,
+            width: `${listWidth}px`
           }}
         >
           {imageList.map((item, idx) => (

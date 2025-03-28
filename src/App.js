@@ -1,4 +1,3 @@
-// App.js
 import './App.css';
 import FirstBlock from './components/FirstBlock/FirstBlock';
 import Header from './components/Header/Header';
